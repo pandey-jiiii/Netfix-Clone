@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body {
+    background-color: black;
+}
+
+.page1 {
+    background-image: url(assets/images/bg.jpg);
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.back {
+    width: 100%;
+    height: 120vh;
+    background-color: black;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    max-width: 1580px;
+    height: 88px;
+    margin: auto;
+}
+
+nav img {
+    height: 40px;
+    z-index: 10;
+}
+
+nav .navbtn {
+    z-index: 10;
+}
+
+.navbtn .lang {
+    background-color: rgb(29, 29, 29);
+    border: 1px solid white;
+    color: white;
+    padding: 5px 26px;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+.navbtn .signin {
+    background-color: red;
+    border: none;
+    padding: 7px 14px;
+    color: white;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.content {
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.content .c1 {
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+    max-width: 750px;
+    margin-bottom: 16px;
+}
+
+.content .c2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 750px;
+    margin-bottom: 32px;
+}
+
+.content .c3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 750px;
+    margin-bottom: 20px;
+}
+
+.content span {
+    display: flex;
+    gap: 8px;
+}
+
+.content .c4 input {
+    background-color: black;
+    padding: 18px 20px;
+    padding-right: 190px;
+    opacity: 0.45;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.content input::placeholder {
+    opacity: 1;
+    color: white;
+}
+
+.content button {
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    height: 15%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container .curve-red {
+    width: 100%;
+    max-width: 2000px;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(to right, rgb(48, 10, 28) 16%, rgba(184, 40, 105, 1), rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(184, 40, 105, 1), rgb(48, 10, 28) 84%);
+    border-radius: 100% 100% 0% 0%;
+}
+
+.container .curve-black {
+    width: 100%;
+    max-width: 2000px;
+    height: 96%;
+    position: absolute;
+    bottom: 0;
+    background: #0B0E4D;
+    background: linear-gradient(180deg, rgba(11, 14, 77, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    border-radius: 100% 100% 0% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .curve-black span {
+    color: white;
+    width: 80vw;
+    max-width: 1580px;
+    position: absolute;
+    bottom: 0px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.page2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page2 .trending-banner{
+    width: 80vw;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.trend-box{
+    height: 250px;
+    width: 180px;
+    background-color: red;
+    border-radius: 10px;
+    position: static;
+}
+
+.trending-banner button{
+    height: 120px;
+    width: 25px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.t1{
+    background-image: url(assets/images/t1.webp);
+}
+.t2{
+    background-image: url(assets/images/t2.webp);
+}
+.t3{
+    background-image: url(assets/images/t3.webp);
+}
+.t4{
+    background-image: url(assets/images/t4.webp);
+}
+
+.reas{
+    width: 80vw;
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+}
+
+.reas h1{
+    font-size: 25px;
+    font-weight: 550;
+}
